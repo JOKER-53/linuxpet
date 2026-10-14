@@ -4,7 +4,7 @@ version     = "0.1.0"
 edition     = "2021"
 description = "Multi-pet Linux desktop companion with system stats HUD"
 license     = "MIT"
-repository  = "https://github.com/KADHIRAVANEG/linuxpet"
+repository  = "https://github.com/JOKER-53/linuxpet"
 keywords    = ["desktop", "pet", "linux", "overlay", "rust"]
 categories  = ["graphics", "os::linux-apis"]
 

@@ -9,7 +9,7 @@
 > Cats, dogs, fish and custom plugin sprites floating on your desktop,
 > with a live system stats HUD baked right in.
 
-[![CI](https://github.com/KADHIRAVANEG/linuxpet/actions/workflows/ci.yml/badge.svg)](https://github.com/KADHIRAVANEG/linuxpet/actions)
+[![CI](https://github.com/JOKER-53/linuxpet/actions/workflows/ci.yml/badge.svg)](https://github.com/JOKER-53/linuxpet/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Rust](https://img.shields.io/badge/rust-1.78%2B-orange.svg)](https://www.rust-lang.org)
 [![AUR](https://img.shields.io/aur/version/linuxpet)](https://aur.archlinux.org/packages/linuxpet)
@@ -37,7 +37,7 @@
 ### Prebuilt binary (fastest)
 
 ```bash
-curl -L https://github.com/KADHIRAVANEG/linuxpet/releases/latest/download/linuxpet-x86_64 \
+curl -L https://github.com/JOKER-53/linuxpet/releases/latest/download/linuxpet-x86_64 \
   -o ~/.local/bin/linuxpet
 chmod +x ~/.local/bin/linuxpet
 linuxpet
@@ -54,14 +54,14 @@ paru -S linuxpet
 ### Flatpak
 
 ```bash
-flatpak install flathub io.github.KADHIRAVANEG.linuxpet
-flatpak run io.github.KADHIRAVANEG.linuxpet
+flatpak install flathub io.github.JOKER-53.linuxpet
+flatpak run io.github.JOKER-53.linuxpet
 ```
 
 ### From source
 
 ```bash
-git clone https://github.com/KADHIRAVANEG/linuxpet
+git clone https://github.com/JOKER-53/linuxpet
 cd linuxpet
 cargo build --release
 ./target/release/linuxpet
@@ -467,7 +467,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full dev setup guide.
 Quick start:
 
 ```bash
-git clone https://github.com/KADHIRAVANEG/linuxpet
+git clone https://github.com/JOKER-53/linuxpet
 cd linuxpet
 cargo build       # compile
 cargo test        # run tests
